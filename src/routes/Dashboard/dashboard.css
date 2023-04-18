@@ -1,0 +1,98 @@
+
+#profile-name{
+    color: #0C0C0CE5;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+#profile-img{
+    aspect-ratio: 1/1;
+} 
+
+#notification-icon-wrapper {
+    background-color: #D9D9D9; 
+    aspect-ratio: 1/1;
+    width: 80px;
+    height: min-content;
+
+}
+
+#notification-icon-wrapper img{
+    width: 40px !important;
+}
+
+.notification-info p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.notification-info span{
+    font-size: 16px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#wallet-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#wallet-price{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    /* line-height: 43px; */
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+@media (max-width: 600px) {
+    #profile-img {
+        --small-size: 50px;
+        width: var(--small-size) !important;
+        height: var(--small-size) !important;
+    }
+    #notification-bell{
+        width: 20px;
+    }
+    #profile-name{
+        font-size: 18px !important;
+    }
+
+    #wallet-text{
+        font-size: 12px !important;
+        font-weight: 700;
+        line-height: 12px;
+        margin-bottom: 2px !important;
+    } 
+    #wallet-price{
+        font-size: 15px !important;
+        line-height: 16.8px;
+    }
+
+    #notification-icon-wrapper img{
+        width: 25px !important;
+        aspect-ratio: 1/1 !important;
+    }
+
+    #notification-icon-wrapper{
+        width: 60px;
+     }
+}
+
+nav {
+    position: fixed;
+    background: black;
+}

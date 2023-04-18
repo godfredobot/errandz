@@ -1,0 +1,19 @@
+/* GENERAL STYLES */
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap);
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+:root{
+    --primary-dark: #0C0C0C;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#root {
+    height: 100%;
+}
